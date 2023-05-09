@@ -2,7 +2,7 @@ const cardsDetails = [
     {
         id : 1,
         imgUrl: "https://i.imgur.com/Tbj5X2O.png",
-        advice :"Become A Social Media Exper"
+        advice :"Become A Social Media Expert"
        
     },
     {

@@ -1,20 +1,20 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import MainOne from '../components/MainOne'
-import SearchInput from '../components/SearchInput'
-import Mainsection from '../components/Mainsection'
-import Cards from '../components/Cards'
+// import NavBar from '../components/NavBar'
+import MainOne from '../components/homePage/MainOne'
+import SearchInput from '../components/homePage/SearchInput'
+import Mainsection from '../components/homePage/Mainsection'
+import Cards from '../components/homePage/Cards'
 import cardsDetails from '../CardDetail'
-import Courses from '../components/Courses'
-import Footer from '../components/Footer'
+import Courses from '../components/homePage/Courses'
+import Footer from '../components/homePage/Footer'
 
 function HomePage() {
   return (
     <div>
 
-        <div>
+        {/* <div>
             <NavBar />
-        </div>
+        </div> */}
 
         <div>
             <MainOne />
@@ -44,7 +44,7 @@ function HomePage() {
          
         </div> */}
 
-        <div>
+        <div className='mt-24'>
           <Footer />
         </div>
 

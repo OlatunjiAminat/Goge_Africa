@@ -11,7 +11,7 @@ function Cards(props) {
                 <img src={props.img} alt="avatar" className='w-32 h-24 mx-auto'/>
             </div>
             <div className='bg-deep-orange-rgba border rounded-b-lg text-xs max-w-xs mx-auto'  >
-                <h2 className='text-white w-40 pl-5 py-2'>{props.advice}</h2>
+                <h2 className='text-white font-bold w-40 pl-5 py-2'>{props.advice}</h2>
             </div>
         </div>
     </div>

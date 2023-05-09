@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assets/Logo1.png";
+import Logo from "../../assets/Logo1.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faTwitter, faFacebook,  faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons'
@@ -7,11 +7,11 @@ import {faTwitter, faFacebook,  faInstagram, faYoutube} from '@fortawesome/free-
 
 function Footer() {
   return (
-    <div className='mt-24'>
+    <div className=''>
         <div className='bg-gray-rgba  text-white md:flex justify-around '>
 
-            <div className='mt-12 '>
-                <img src={Logo} alt="logo" className="w-20 text-deep-orange-rgba pl-4" />
+            <div className=' '>
+                <img src={Logo} alt="logo" className="w-20 text-deep-orange-rgba pl-4 pt-4" />
                 <p className='pl-4 text-sm md:max-w-xs'>Semaj Africa is an online education that delivers video courses programs and resources</p>
                 <div className=' flex  pl-4 mt-4 mb-8'>
                     <Link to="#" className='mr-4 bg-blue-900 rounded-full p-1'><FontAwesomeIcon icon={faTwitter} /></Link> 
