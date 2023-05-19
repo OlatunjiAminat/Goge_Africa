@@ -19,7 +19,7 @@ function CardSection(props) {
             <p className="text-xs pl-5 py-2">{props.explanation}</p>
           </div>
           <div className="">
-            <Link to="#"><p className="text-xs pl-5 py-2 bg-white text-deep-orange-rgba w-24 rounded-full ml-6 mb-10 mt-6 ">{props.button}</p></Link>
+            <Link to="../pages/BlogDetails"><p className="text-xs pl-5 py-2 bg-white text-deep-orange-rgba w-24 rounded-full ml-6 mb-10 mt-6 ">{props.button}</p></Link>
           </div>
         </div>
       </div>

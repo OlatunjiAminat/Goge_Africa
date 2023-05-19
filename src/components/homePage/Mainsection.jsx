@@ -7,7 +7,7 @@ function Mainsection() {
   return (
     <div className=' mb-16 md:flex justify-around'>
         <div className='flex justify-around mt-12 text-grey-rgba'>
-            <p>Showing 1-8 of 10 result </p>
+            <p className='md:pr-4 lg:pr-8'>Showing 1-8 of 10 results </p>
             <p>Show 6 12 16</p>
         </div>
         <div className='flex justify-around'>

@@ -1,15 +1,14 @@
 import React from 'react'
-import FormSection from '../components/signUp/FormSection'
+import FormSection from '../components/contributor/FormSection'
 
-function SignUp() {
+function Contributor() {
   return (
     <div>
         <div>
             <FormSection />
         </div>
-      
     </div>
   )
 }
 
-export default SignUp
+export default Contributor

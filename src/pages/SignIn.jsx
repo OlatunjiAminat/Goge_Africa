@@ -1,15 +1,14 @@
 import React from 'react'
-import FormSection from '../components/signUp/FormSection'
+import FormSection from '../components/signIn/FormSection'
 
-function SignUp() {
+function SignIn() {
   return (
     <div>
         <div>
             <FormSection />
         </div>
-      
     </div>
   )
 }
 
-export default SignUp
+export default SignIn
