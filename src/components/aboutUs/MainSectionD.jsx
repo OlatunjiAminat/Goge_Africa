@@ -11,9 +11,7 @@ function MainSectionD() {
         <div>
             <img src={about4} alt='team of workers'  className='pb-8'/>
         </div>
-</div>
-   
-    
+</div> 
   )
 }
 

@@ -4,7 +4,7 @@ import MainSectionB from '../components/aboutUs/MainSectionB'
 import MainSectionC from '../components/aboutUs/MainSectionC'
 import MainSectionD from '../components/aboutUs/MainSectionD'
 import MainSectionE from '../components/aboutUs/MainSectionE'
-import Footer from '../components/homePage/Footer'
+import Footer from '../components/courses/Footer'
 import MainSectionF from '../components/aboutUs/MainSectionF'
 
 function AboutUs() {

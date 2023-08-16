@@ -1,21 +1,16 @@
 import React from 'react'
 // import NavBar from '../components/NavBar'
-import MainOne from '../components/homePage/MainOne'
-import SearchInput from '../components/homePage/SearchInput'
-import Mainsection from '../components/homePage/Mainsection'
-import Cards from '../components/homePage/Cards'
+import MainOne from '../components/courses/MainOne'
+import SearchInput from '../components/courses/SearchInput'
+import Mainsection from '../components/courses/Mainsection'
+import Cards from '../components/courses/Cards'
 import cardsDetails from '../CardDetail'
-import Courses from '../components/homePage/Courses'
-import Footer from '../components/homePage/Footer'
+import Courses from '../components/courses/Courses'
+import Footer from '../components/courses/Footer'
 
 function HomePage() {
   return (
     <div>
-
-        {/* <div>
-            <NavBar />
-        </div> */}
-
         <div>
             <MainOne />
         </div>
@@ -39,17 +34,10 @@ function HomePage() {
           </div>
           
         </div>
-
-        {/* <div className=''>
-         
-        </div> */}
-
         <div className='mt-24'>
           <Footer />
         </div>
-
     </div>
   )
 }
-
 export default HomePage

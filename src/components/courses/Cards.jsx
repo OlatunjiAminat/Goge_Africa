@@ -1,7 +1,5 @@
 
 import React from 'react'
-// import cardsDetails from '../CardDetail'
-
 
 function Cards(props) {
   return (
@@ -15,8 +13,6 @@ function Cards(props) {
             </div>
         </div>
     </div>
-
-    
   )
 }
 

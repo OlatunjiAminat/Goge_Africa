@@ -2,7 +2,7 @@ import React from 'react'
 import MainSectionA from '../components/blogs/MainSectionA'
 import CardSection from '../components/blogs/CardSection'
 import blogCardDetails from '../BlogCardDetails'
-import Footer from '../components/homePage/Footer'
+import Footer from '../components/courses/Footer'
 
 function Blogs() {
   return (
@@ -17,7 +17,6 @@ function Blogs() {
              ))}
           </div>
         </div>
-
         <div className='mt-32'>
           <Footer />
         </div>

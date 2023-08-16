@@ -7,9 +7,7 @@ function SignUp() {
         <div>
             <FormSection />
         </div>
-      
     </div>
   )
 }
-
 export default SignUp

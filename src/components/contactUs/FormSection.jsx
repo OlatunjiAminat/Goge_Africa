@@ -9,7 +9,6 @@ function FormSection() {
         <div  className='flex items-center justify-center'>
             <p className='text-gray-400 text-xs pl-2'>We do normally get back within 48hrs.Please leave a message.</p>
         </div>
-
         <div className='flex items-center justify-center'>
             <form action="https://getform.io/f/1e3fb990-41e9-409e-9a8a-f3d0516627fd" method="POST">
                 <input type="text" placeholder='FullName' name="fName" required className=' mt-6 block border border-grey-500 rounded-full pl-3 py-1 mb-2 w-56 text-xs md:py-2 lg:w-64 lg:py-3' />

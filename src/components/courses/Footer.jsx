@@ -7,7 +7,7 @@ import {faTwitter, faFacebook,  faInstagram, faYoutube} from '@fortawesome/free-
 
 function Footer() {
   return (
-    <div className=''>
+    <div className='text-xs'>
         <div className='bg-gray-rgba  text-white md:flex justify-around '>
 
             <div className=' '>

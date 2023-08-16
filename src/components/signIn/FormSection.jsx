@@ -14,9 +14,6 @@ function FormSection() {
             <div  className='flex items-center justify-center -mt-16 md:-mt-20 lg:-mt-32'>
                 <p className='text-gray-400 text-xs'>Sign in to your account to continue</p>
             </div>
-    
-
-    
             <div className='flex items-center justify-center'>
                 <form action="https://getform.io/f/1e3fb990-41e9-409e-9a8a-f3d0516627fd" method="POST">
                     <input type="text" placeholder='Full Name' name="fName"  autoComplete="off" required className='focus:outline-none  focus:ring-1 focus:ring-grey-100 mt-6 block border border-grey-500 rounded-full pl-3 py-2 mb-2 w-56 text-xs md:py-3 lg:w-64 lg:py-4' />
@@ -26,15 +23,9 @@ function FormSection() {
                 </form>
             </div>
         </div>
-    
-            
         <div className="hidden md:block">
              <img src={SignIn} alt="logo" className="" />
-        </div> 
-    
-       
-
-        
+        </div>         
     </div>
     
   )
