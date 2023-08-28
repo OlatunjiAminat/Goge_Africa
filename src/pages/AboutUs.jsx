@@ -26,7 +26,7 @@ function AboutUs() {
           <MainSectionF />
         </div>
 
-        <div className=''>
+        <div>
           <MainSectionD />
         </div>
 

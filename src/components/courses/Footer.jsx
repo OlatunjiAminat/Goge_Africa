@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../../assets/Logo1.png";
+import Logo2 from "../../assets/Logo2.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faTwitter, faFacebook,  faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons'
@@ -11,13 +11,13 @@ function Footer() {
         <div className='bg-gray-rgba  text-white md:flex justify-around '>
 
             <div className=' '>
-                <img src={Logo} alt="logo" className="w-20 text-deep-orange-rgba pl-4 pt-4" />
+                <img src={Logo2} alt="logo" className="w-32 text-deep-orange-rgba pl-4 pt-4 pb-5" />
                 <p className='pl-4 text-sm md:max-w-xs'>Semaj Africa is an online education that delivers video courses programs and resources</p>
                 <div className=' flex  pl-4 mt-4 mb-8'>
-                    <Link to="#" className='mr-4 bg-blue-900 rounded-full p-1'><FontAwesomeIcon icon={faTwitter} /></Link> 
-                    <Link to="#" className='mr-4 bg-blue-400 rounded-full p-1'><FontAwesomeIcon icon={faFacebook} /></Link>
-                    <Link to="#" className='mr-4 bg-red-800 rounded-full p-1'><FontAwesomeIcon icon={faInstagram} /></Link> 
-                    <Link to="#" className='mr-4 bg-pink-700 rounded-full p-1'><FontAwesomeIcon icon={faYoutube} /></Link>
+                    <Link to="#" className='mr-4 bg-blue-900 rounded-[50%] p-1'><FontAwesomeIcon icon={faTwitter} /></Link> 
+                    <Link to="#" className='mr-4 bg-blue-400 rounded-[50%] p-1'><FontAwesomeIcon icon={faFacebook} /></Link>
+                    <Link to="#" className='mr-4 bg-red-800 rounded-[50%] p-1'><FontAwesomeIcon icon={faInstagram} /></Link> 
+                    <Link to="#" className='mr-4 bg-pink-700 rounded-[50%] p-1'><FontAwesomeIcon icon={faYoutube} /></Link>
                 </div><hr className='bg-white md:hidden'/>
             </div>
 

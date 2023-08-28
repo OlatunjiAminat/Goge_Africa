@@ -21,6 +21,7 @@ import CourseDetails from './pages/CourseDetails';
 import CourseExercise from './pages/CourseExercise';
 import Landing from './pages/Landing';
 import Course from './pages/Course';
+import ForgetPassword from './pages/ForgetPassword';
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="pages/SignUp" element={<SignUp />} />
         <Route path="pages/SignIn" element={<SignIn />} />
         <Route path="pages/Contributor" element={<Contributor />} />
+        <Route path="pages/ForgetPassword" element={<ForgetPassword />} />
 
         <Route path="/" element= {<NavBar />} >
           <Route index element= {<Landing />} />
@@ -54,7 +56,7 @@ function App() {
   );
 
   return (
-      <div>
+      <div className='max-w-[1400px] mx-auto'>
         <RouterProvider router= {router} />
       </div>
 

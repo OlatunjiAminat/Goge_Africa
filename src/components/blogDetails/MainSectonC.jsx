@@ -37,10 +37,10 @@ function MainSectonC() {
                 <p>Tags: Technology,Design,Computer</p>
             </div>
             <div className=' flex  mt-8 mb-8'>Share with
-                    <Link to="#" className='mx-4 bg-blue-900 rounded-full p-1'><FontAwesomeIcon icon={faTwitter} /></Link> 
-                    <Link to="#" className='mr-4 bg-blue-400 rounded-full p-1'><FontAwesomeIcon icon={faFacebook} /></Link>
-                    <Link to="#" className='mr-4 bg-red-800 rounded-full p-1'><FontAwesomeIcon icon={faInstagram} /></Link> 
-                    <Link to="#" className='mr-4 bg-pink-700 rounded-full p-1'><FontAwesomeIcon icon={faYoutube} /></Link>
+                    <Link to="#" className='mx-4 bg-blue-900 rounded-[50%] p-1'><FontAwesomeIcon icon={faTwitter} /></Link> 
+                    <Link to="#" className='mr-4 bg-blue-400 rounded-[50%] p-1'><FontAwesomeIcon icon={faFacebook} /></Link>
+                    <Link to="#" className='mr-4 bg-red-800 rounded-[50%] p-1'><FontAwesomeIcon icon={faInstagram} /></Link> 
+                    <Link to="#" className='mr-4 bg-pink-700 rounded-[50%] p-1'><FontAwesomeIcon icon={faYoutube} /></Link>
                 </div>
         </div>
     </div>

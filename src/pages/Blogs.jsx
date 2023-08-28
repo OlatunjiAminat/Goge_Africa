@@ -11,9 +11,9 @@ function Blogs() {
             <MainSectionA />
         </div>
         <div className='md:flex justify-around flex-wrap'>
-          <div className='mx-auto flex flex-wrap justify-around md:mx-6 lg:mx-0'>
+          <div className='max-w-[350px] mx-auto flex flex-wrap justify-around md:mx-6 lg:mx-0 lg:max-w-[450px]'>
             { blogCardDetails.map(detail =>(
-              <CardSection img={detail.imgUrl} topic={detail.topic} key={detail.id} date={detail.date} explanation={detail.explanation} button={detail.button}/>
+              <CardSection img={detail.imgUrl} topic={detail.topic} key={detail.id} date={detail.date} explanation={detail.explanation} button={detail.button} />
              ))}
           </div>
         </div>

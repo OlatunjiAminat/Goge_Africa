@@ -15,7 +15,7 @@ function MainSectionB() {
                 <h3 className='text-gray-600 font-bold text-xs '>Unlimited access</h3>
                 <p className='text-gray-600 text-[8px] font-light lg:text-[11px]'>One subscription unlimited access</p>
             </div>
-            <div className='mr-16 mb-8'>
+            <div className='mr-16 mb-8 xl:pl-32'>
                 <div className='md:pl-7'>
                     <img src={teacher} alt="teacher" className='w-[50px]' />    
                 </div>

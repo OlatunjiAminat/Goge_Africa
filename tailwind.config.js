@@ -11,6 +11,9 @@ module.exports = {
         "grey-rgba": "rgba(92, 92, 92, 1)",
         "gray-rgba": "rgba(33, 33, 33, 1)"
       },
+      myCustomImage:{
+        "background-image" : "url(assets/signin3.png)"
+      },
       fontFamily: {
         abc: ["Ibarra Real Nova","Bona Nova", "Lexend Deca", "Roboto", "Space Grotesk"]
       },

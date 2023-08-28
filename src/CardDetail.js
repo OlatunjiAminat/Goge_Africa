@@ -26,7 +26,7 @@ const cardsDetails = [
     {
         id : 5,
         imgUrl: "https://i.imgur.com/tinALN3.jpg",
-        advice :"Learn Logo Design"
+        advice :"Learn Logo Design And UI/UX"
        
     },
     {
@@ -38,7 +38,7 @@ const cardsDetails = [
     {
         id : 7,
         imgUrl: "https://i.imgur.com/PpcQ2FS.jpg",
-        advice :"Embark On The Journey Of Becoming An Artist" 
+        advice :"Embark On The Journey Of Becoming" 
         
     },
     {
@@ -56,13 +56,13 @@ const cardsDetails = [
     {
         id : 10,
         imgUrl: "https://i.imgur.com/7a8Dsdm.jpg",
-        advice :"3 In 1 Course Of Becoming A Makeup Artist"
+        advice :"3 In 1 Course Of Becoming A Makeup"
        
     },
     {
         id : 11,
         imgUrl: "https://i.imgur.com/2dneMhu.jpg",
-        advice :"How To Have a Good Listening Ear For Music"
+        advice :"How To Have a Good Listening Ear"
     
     },
     {
